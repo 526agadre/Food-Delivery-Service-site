@@ -179,61 +179,6 @@
             <p>&copy; 2026 Delicious Bites. All rights reserved.</p>
         </div>
     </footer>
-
-    <!-- Checkout Modal Structure -->
-    <div id="checkout-modal" class="checkout-modal">
-        <div class="checkout-content">
-            <span class="close-modal" onclick="closeCheckoutModal()">&times;</span>
-            <div class="checkout-header">
-                <h2>Your Order</h2>
-                <p>Review your items and complete your order</p>
-            </div>
-            <div id="checkout-items" class="checkout-items">
-                <!-- Cart items will be populated here -->
-            </div>
-            <div id="checkout-total" class="checkout-total">
-                <h3>Total: <span id="total-amount">$0.00</span></h3>
-            </div>
-            <form id="checkout-form" class="checkout-form">
-                <input type="text" placeholder="Full Name" required>
-                <input type="email" placeholder="Email Address" required>
-                <input type="tel" placeholder="Phone Number" required>
-                <input type="text" placeholder="Delivery Address" required>
-                <select required>
-                    <option value="">Select Payment Method</option>
-                    <option value="card">Credit/Debit Card</option>
-                    <option value="paypal">PayPal</option>
-                    <option value="cash">Cash on Delivery</option>
-                </select>
-                <textarea placeholder="Special Instructions (optional)"></textarea>
-            </form>
-            <div class="checkout-buttons">
-                <button type="button" class="btn-secondary-checkout" onclick="closeCheckoutModal()">Continue Shopping</button>
-                <button type="submit" form="checkout-form" class="btn-primary-checkout">Place Order</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Dish Modal Structure -->
-    <div id="dish-modal" class="modal">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <div class="modal-body">
-                <div class="modal-image">
-                    <img id="modal-dish-image" src="" alt="">
-                </div>
-                <div class="modal-details">
-                    <h2 id="modal-dish-title"></h2>
-                    <p id="modal-dish-description"></p>
-                    <span id="modal-dish-price" class="price"></span>
-                    <div style="margin-top: 2rem;">
-                        <button id="add-to-cart-btn" class="btn-primary" style="width: 100%;">Add to Cart</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <script src="script.js"></script>
 </body>
 </html>
