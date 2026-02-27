@@ -51,7 +51,7 @@
     <script>
         // Initialize EmailJS with your public key
         (function(){
-            emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS public key
+            emailjs.init("7GjLoM194j5PVXwqK"); // Replace with your EmailJS public key
         })();
 
         document.getElementById('contact-form').addEventListener('submit', function(event) {
@@ -66,7 +66,7 @@
             };
 
             // Send email using EmailJS
-            emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams) // Replace with your service and template IDs
+            emailjs.send('service_u17n4z7', 'template_dm4i4zy', templateParams) // Replace with your service and template IDs
                 .then(function(response) {
                     console.log('SUCCESS!', response.status, response.text);
                     document.getElementById('status-message').innerHTML = '<p style="color: green;">Message sent successfully!</p>';

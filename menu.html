@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
@@ -31,148 +33,298 @@
         <div class="container">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
                 <h2>Our Menu</h2>
-                <button id="checkout-btn" class="btn-primary" style="display: none;">Checkout (<span id="cart-count">0</span>)</button>
-            </div>
-            <div class="menu-tabs">
-                <button class="tab-btn active" data-tab="chinese">Chinese Cuisine</button>
-                <button class="tab-btn" data-tab="indian">Indian Cuisine</button>
+                <button id="checkout-btn" class="btn-primary" style="display: none;">Checkout (<span
+                        id="cart-count">0</span>)</button>
             </div>
             <div class="menu-content">
                 <section id="chinese" class="tab-content active">
-                    <article class="menu-item" data-title="Vegetable Fried Rice" data-description="Fragrant rice stir-fried with mixed vegetables and soy sauce. A healthy and delicious side dish." data-price="$8.99" data-image="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop&crop=center">
+                    <article class="menu-item" data-title="Vegetable Fried Rice"
+                        data-description="Fragrant rice stir-fried with mixed vegetables and soy sauce. A healthy and delicious side dish."
+                        data-price="$8.99"
+                        data-image="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop&crop=center">
                         <figure>
-                            <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=300&h=200&fit=crop&crop=center" alt="Vegetable Fried Rice">
+                            <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=300&h=200&fit=crop&crop=center"
+                                alt="Vegetable Fried Rice">
                         </figure>
                         <h3>Vegetable Fried Rice</h3>
-                        <p>Fragrant rice stir-fried with mixed vegetables and soy sauce. A healthy and delicious side dish.</p>
+                        <p>Fragrant rice stir-fried with mixed vegetables and soy sauce. A healthy and delicious side
+                            dish.</p>
                         <span class="price">$8.99</span>
                     </article>
-                    <article class="menu-item" data-title="Mapo Tofu" data-description="Soft tofu in a spicy bean sauce with mushrooms and Sichuan peppercorns. A numbing and spicy delight." data-price="$10.99" data-image="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&h=300&fit=crop&crop=center">
+                    <article class="menu-item" data-title="Mapo Tofu"
+                        data-description="Soft tofu in a spicy bean sauce with mushrooms and Sichuan peppercorns. A numbing and spicy delight."
+                        data-price="$10.99"
+                        data-image="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&h=300&fit=crop&crop=center">
                         <figure>
-                            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=300&h=200&fit=crop&crop=center" alt="Mapo Tofu">
+                            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=300&h=200&fit=crop&crop=center"
+                                alt="Mapo Tofu">
                         </figure>
                         <h3>Mapo Tofu</h3>
-                        <p>Soft tofu in a spicy bean sauce with mushrooms and Sichuan peppercorns. A numbing and spicy delight.</p>
+                        <p>Soft tofu in a spicy bean sauce with mushrooms and Sichuan peppercorns. A numbing and spicy
+                            delight.</p>
                         <span class="price">$10.99</span>
                     </article>
-                    <article class="menu-item" data-title="Vegetable Spring Rolls" data-description="Crispy rolls filled with cabbage, carrots, mushrooms, and glass noodles. Served with sweet chili sauce." data-price="$7.99" data-image="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=400&h=300&fit=crop&crop=center">
+                    <article class="menu-item" data-title="Vegetable Spring Rolls"
+                        data-description="Crispy rolls filled with cabbage, carrots, mushrooms, and glass noodles. Served with sweet chili sauce."
+                        data-price="$7.99"
+                        data-image="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=400&h=300&fit=crop&crop=center">
                         <figure>
-                            <img src="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=300&h=200&fit=crop&crop=center" alt="Vegetable Spring Rolls">
+                            <img src="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=300&h=200&fit=crop&crop=center"
+                                alt="Vegetable Spring Rolls">
                         </figure>
                         <h3>Vegetable Spring Rolls</h3>
-                        <p>Crispy rolls filled with cabbage, carrots, mushrooms, and glass noodles. Served with sweet chili sauce.</p>
+                        <p>Crispy rolls filled with cabbage, carrots, mushrooms, and glass noodles. Served with sweet
+                            chili sauce.</p>
                         <span class="price">$7.99</span>
                     </article>
-                    <article class="menu-item" data-title="Tofu Stir Fry" data-description="Crispy tofu stir-fried with broccoli, bell peppers, and mushrooms in a savory sauce." data-price="$11.99" data-image="https://images.unsplash.com/photo-1563379091339-03246963d96c?w=400&h=300&fit=crop&crop=center">
+                    <article class="menu-item" data-title="Tofu Stir Fry"
+                        data-description="Crispy tofu stir-fried with broccoli, bell peppers, and mushrooms in a savory sauce."
+                        data-price="$11.99"
+                        data-image="https://images.unsplash.com/photo-1563379091339-03246963d96c?w=400&h=300&fit=crop&crop=center">
                         <figure>
-                            <img src="https://images.unsplash.com/photo-1563379091339-03246963d96c?w=300&h=200&fit=crop&crop=center" alt="Tofu Stir Fry">
+                            <img src="https://images.unsplash.com/photo-1563379091339-03246963d96c?w=300&h=200&fit=crop&crop=center"
+                                alt="Tofu Stir Fry">
                         </figure>
                         <h3>Tofu Stir Fry</h3>
                         <p>Crispy tofu stir-fried with broccoli, bell peppers, and mushrooms in a savory sauce.</p>
                         <span class="price">$11.99</span>
                     </article>
-                    <article class="menu-item" data-title="Eggplant in Garlic Sauce" data-description="Tender eggplant stir-fried with garlic, ginger, and spicy bean sauce. A Sichuan favorite." data-price="$9.99" data-image="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop&crop=center">
+                    <article class="menu-item" data-title="Eggplant in Garlic Sauce"
+                        data-description="Tender eggplant stir-fried with garlic, ginger, and spicy bean sauce. A Sichuan favorite."
+                        data-price="$9.99"
+                        data-image="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop&crop=center">
                         <figure>
-                            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=300&h=200&fit=crop&crop=center" alt="Eggplant in Garlic Sauce">
+                            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=300&h=200&fit=crop&crop=center"
+                                alt="Eggplant in Garlic Sauce">
                         </figure>
                         <h3>Eggplant in Garlic Sauce</h3>
                         <p>Tender eggplant stir-fried with garlic, ginger, and spicy bean sauce. A Sichuan favorite.</p>
                         <span class="price">$9.99</span>
                     </article>
-                    <article class="menu-item" data-title="Vegetable Dumplings" data-description="Steamed dumplings filled with cabbage, carrots, and tofu. Served with ginger soy sauce." data-price="$8.99" data-image="https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=400&h=300&fit=crop&crop=center">
+                    <article class="menu-item" data-title="Vegetable Dumplings"
+                        data-description="Steamed dumplings filled with cabbage, carrots, and tofu. Served with ginger soy sauce."
+                        data-price="$8.99"
+                        data-image="https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=400&h=300&fit=crop&crop=center">
                         <figure>
-                            <img src="https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=300&h=200&fit=crop&crop=center" alt="Vegetable Dumplings">
+                            <img src="https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=300&h=200&fit=crop&crop=center"
+                                alt="Vegetable Dumplings">
                         </figure>
                         <h3>Vegetable Dumplings</h3>
                         <p>Steamed dumplings filled with cabbage, carrots, and tofu. Served with ginger soy sauce.</p>
                         <span class="price">$8.99</span>
                     </article>
-                    <article class="menu-item" data-title="Kung Pao Tofu" data-description="Crispy tofu with peanuts, vegetables, and Sichuan peppers in a spicy sauce." data-price="$12.99" data-image="https://images.unsplash.com/photo-1563379091339-03246963d96c?w=400&h=300&fit=crop&crop=center">
+                    <article class="menu-item" data-title="Kung Pao Tofu"
+                        data-description="Crispy tofu with peanuts, vegetables, and Sichuan peppers in a spicy sauce."
+                        data-price="$12.99"
+                        data-image="https://images.unsplash.com/photo-1563379091339-03246963d96c?w=400&h=300&fit=crop&crop=center">
                         <figure>
-                            <img src="https://images.unsplash.com/photo-1563379091339-03246963d96c?w=300&h=200&fit=crop&crop=center" alt="Kung Pao Tofu">
+                            <img src="https://images.unsplash.com/photo-1563379091339-03246963d96c?w=300&h=200&fit=crop&crop=center"
+                                alt="Kung Pao Tofu">
                         </figure>
                         <h3>Kung Pao Tofu</h3>
                         <p>Crispy tofu with peanuts, vegetables, and Sichuan peppers in a spicy sauce.</p>
                         <span class="price">$12.99</span>
                     </article>
-                    <article class="menu-item" data-title="Mixed Vegetable Chow Mein" data-description="Stir-fried noodles with cabbage, bean sprouts, carrots, and mushrooms in a light soy sauce." data-price="$10.99" data-image="https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=400&h=300&fit=crop&crop=center">
+                    <article class="menu-item" data-title="Mixed Vegetable Chow Mein"
+                        data-description="Stir-fried noodles with cabbage, bean sprouts, carrots, and mushrooms in a light soy sauce."
+                        data-price="$10.99"
+                        data-image="https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=400&h=300&fit=crop&crop=center">
                         <figure>
-                            <img src="https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=300&h=200&fit=crop&crop=center" alt="Mixed Vegetable Chow Mein">
+                            <img src="https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=300&h=200&fit=crop&crop=center"
+                                alt="Mixed Vegetable Chow Mein">
                         </figure>
                         <h3>Mixed Vegetable Chow Mein</h3>
-                        <p>Stir-fried noodles with cabbage, bean sprouts, carrots, and mushrooms in a light soy sauce.</p>
+                        <p>Stir-fried noodles with cabbage, bean sprouts, carrots, and mushrooms in a light soy sauce.
+                        </p>
                         <span class="price">$10.99</span>
                     </article>
                 </section>
                 <section id="indian" class="tab-content">
-                    <article class="menu-item" data-title="Paneer Tikka Masala" data-description="Grilled paneer in a creamy, spiced tomato sauce with bell peppers. A vegetarian delight." data-price="$10.99" data-image="https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=400&h=300&fit=crop&crop=center">
+                    <article class="menu-item" data-title="Paneer Tikka Masala"
+                        data-description="Grilled paneer in a creamy, spiced tomato sauce with bell peppers. A vegetarian delight."
+                        data-price="$10.99"
+                        data-image="https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=400&h=300&fit=crop&crop=center">
                         <figure>
-                            <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=300&h=200&fit=crop&crop=center" alt="Paneer Tikka Masala">
+                            <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=300&h=200&fit=crop&crop=center"
+                                alt="Paneer Tikka Masala">
                         </figure>
                         <h3>Paneer Tikka Masala</h3>
                         <p>Grilled paneer in a creamy, spiced tomato sauce with bell peppers. A vegetarian delight.</p>
                         <span class="price">$10.99</span>
                     </article>
-                    <article class="menu-item" data-title="Chana Masala" data-description="Chickpeas cooked in a tangy tomato-based curry with spices. A hearty vegetarian dish." data-price="$9.99" data-image="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&h=300&fit=crop&crop=center">
+                    <article class="menu-item" data-title="Chana Masala"
+                        data-description="Chickpeas cooked in a tangy tomato-based curry with spices. A hearty vegetarian dish."
+                        data-price="$9.99"
+                        data-image="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&h=300&fit=crop&crop=center">
                         <figure>
-                            <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=300&h=200&fit=crop&crop=center" alt="Chana Masala">
+                            <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=300&h=200&fit=crop&crop=center"
+                                alt="Chana Masala">
                         </figure>
                         <h3>Chana Masala</h3>
                         <p>Chickpeas cooked in a tangy tomato-based curry with spices. A hearty vegetarian dish.</p>
                         <span class="price">$9.99</span>
                     </article>
-                    <article class="menu-item" data-title="Vegetable Biryani" data-description="Fragrant basmati rice cooked with mixed vegetables, spices, saffron, and caramelized onions." data-price="$12.99" data-image="https://images.unsplash.com/photo-1563379091339-03246963d96c?w=400&h=300&fit=crop&crop=center">
+                    <article class="menu-item" data-title="Vegetable Biryani"
+                        data-description="Fragrant basmati rice cooked with mixed vegetables, spices, saffron, and caramelized onions."
+                        data-price="$12.99"
+                        data-image="https://images.unsplash.com/photo-1563379091339-03246963d96c?w=400&h=300&fit=crop&crop=center">
                         <figure>
-                            <img src="https://images.unsplash.com/photo-1563379091339-03246963d96c?w=300&h=200&fit=crop&crop=center" alt="Vegetable Biryani">
+                            <img src="https://images.unsplash.com/photo-1563379091339-03246963d96c?w=300&h=200&fit=crop&crop=center"
+                                alt="Vegetable Biryani">
                         </figure>
                         <h3>Vegetable Biryani</h3>
-                        <p>Fragrant basmati rice cooked with mixed vegetables, spices, saffron, and caramelized onions.</p>
+                        <p>Fragrant basmati rice cooked with mixed vegetables, spices, saffron, and caramelized onions.
+                        </p>
                         <span class="price">$12.99</span>
                     </article>
-                    <article class="menu-item" data-title="Aloo Gobi" data-description="Potatoes and cauliflower cooked with tomatoes, onions, and Indian spices. A classic Punjabi dish." data-price="$8.99" data-image="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&h=300&fit=crop&crop=center">
+                    <article class="menu-item" data-title="Aloo Gobi"
+                        data-description="Potatoes and cauliflower cooked with tomatoes, onions, and Indian spices. A classic Punjabi dish."
+                        data-price="$8.99"
+                        data-image="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&h=300&fit=crop&crop=center">
                         <figure>
-                            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=300&h=200&fit=crop&crop=center" alt="Aloo Gobi">
+                            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=300&h=200&fit=crop&crop=center"
+                                alt="Aloo Gobi">
                         </figure>
                         <h3>Aloo Gobi</h3>
-                        <p>Potatoes and cauliflower cooked with tomatoes, onions, and Indian spices. A classic Punjabi dish.</p>
+                        <p>Potatoes and cauliflower cooked with tomatoes, onions, and Indian spices. A classic Punjabi
+                            dish.</p>
                         <span class="price">$8.99</span>
                     </article>
-                    <article class="menu-item" data-title="Palak Paneer" data-description="Creamy spinach curry with cubes of paneer cheese. Rich in flavor and nutrition." data-price="$11.99" data-image="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&h=300&fit=crop&crop=center">
+                    <article class="menu-item" data-title="Palak Paneer"
+                        data-description="Creamy spinach curry with cubes of paneer cheese. Rich in flavor and nutrition."
+                        data-price="$11.99"
+                        data-image="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&h=300&fit=crop&crop=center">
                         <figure>
-                            <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=300&h=200&fit=crop&crop=center" alt="Palak Paneer">
+                            <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=300&h=200&fit=crop&crop=center"
+                                alt="Palak Paneer">
                         </figure>
                         <h3>Palak Paneer</h3>
                         <p>Creamy spinach curry with cubes of paneer cheese. Rich in flavor and nutrition.</p>
                         <span class="price">$11.99</span>
                     </article>
-                    <article class="menu-item" data-title="Baingan Bharta" data-description="Roasted eggplant mashed and cooked with onions, tomatoes, and spices. Smoky and delicious." data-price="$9.99" data-image="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop&crop=center">
+                    <article class="menu-item" data-title="Baingan Bharta"
+                        data-description="Roasted eggplant mashed and cooked with onions, tomatoes, and spices. Smoky and delicious."
+                        data-price="$9.99"
+                        data-image="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop&crop=center">
                         <figure>
-                            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=300&h=200&fit=crop&crop=center" alt="Baingan Bharta">
+                            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=300&h=200&fit=crop&crop=center"
+                                alt="Baingan Bharta">
                         </figure>
                         <h3>Baingan Bharta</h3>
-                        <p>Roasted eggplant mashed and cooked with onions, tomatoes, and spices. Smoky and delicious.</p>
+                        <p>Roasted eggplant mashed and cooked with onions, tomatoes, and spices. Smoky and delicious.
+                        </p>
                         <span class="price">$9.99</span>
                     </article>
-                    <article class="menu-item" data-title="Malai Kofta" data-description="Soft dumplings made from paneer and potatoes in a creamy tomato sauce. A Mughlai specialty." data-price="$13.99" data-image="https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=400&h=300&fit=crop&crop=center">
+                    <article class="menu-item" data-title="Malai Kofta"
+                        data-description="Soft dumplings made from paneer and potatoes in a creamy tomato sauce. A Mughlai specialty."
+                        data-price="$13.99"
+                        data-image="https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=400&h=300&fit=crop&crop=center">
                         <figure>
-                            <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=300&h=200&fit=crop&crop=center" alt="Malai Kofta">
+                            <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=300&h=200&fit=crop&crop=center"
+                                alt="Malai Kofta">
                         </figure>
                         <h3>Malai Kofta</h3>
-                        <p>Soft dumplings made from paneer and potatoes in a creamy tomato sauce. A Mughlai specialty.</p>
+                        <p>Soft dumplings made from paneer and potatoes in a creamy tomato sauce. A Mughlai specialty.
+                        </p>
                         <span class="price">$13.99</span>
                     </article>
-                    <article class="menu-item" data-title="Dal Makhani" data-description="Black lentils slow-cooked with butter, cream, and spices. Served with rice or naan." data-price="$10.99" data-image="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&h=300&fit=crop&crop=center">
+                    <article class="menu-item" data-title="Dal Makhani"
+                        data-description="Black lentils slow-cooked with butter, cream, and spices. Served with rice or naan."
+                        data-price="$10.99"
+                        data-image="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&h=300&fit=crop&crop=center">
                         <figure>
-                            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=300&h=200&fit=crop&crop=center" alt="Dal Makhani">
+                            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=300&h=200&fit=crop&crop=center"
+                                alt="Dal Makhani">
                         </figure>
                         <h3>Dal Makhani</h3>
                         <p>Black lentils slow-cooked with butter, cream, and spices. Served with rice or naan.</p>
                         <span class="price">$10.99</span>
                     </article>
+                    <article class="menu-item" data-title="Vegetable Samosa"
+                        data-description="Crispy pastry triangles filled with spiced potatoes and peas. Served with mint and tamarind chutney."
+                        data-price="$6.99"
+                        data-image="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=300&fit=crop&crop=center">
+                        <figure>
+                            <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=300&h=200&fit=crop&crop=center"
+                                alt="Vegetable Samosa">
+                        </figure>
+                        <h3>Vegetable Samosa</h3>
+                        <p>Crispy pastry triangles filled with spiced potatoes and peas. Served with mint and tamarind
+                            chutney.</p>
+                        <span class="price">$6.99</span>
+                    </article>
+                    <article class="menu-item" data-title="Paneer Butter Masala"
+                        data-description="Soft paneer cubes simmered in a rich, buttery tomato sauce with aromatic Indian spices."
+                        data-price="$12.99"
+                        data-image="https://images.unsplash.com/photo-1564834724105-918b73d1b9e0?w=400&h=300&fit=crop&crop=center">
+                        <figure>
+                            <img src="https://images.unsplash.com/photo-1564834724105-918b73d1b9e0?w=300&h=200&fit=crop&crop=center"
+                                alt="Paneer Butter Masala">
+                        </figure>
+                        <h3>Paneer Butter Masala</h3>
+                        <p>Soft paneer cubes simmered in a rich, buttery tomato sauce with aromatic Indian spices.</p>
+                        <span class="price">$12.99</span>
+                    </article>
+                    <article class="menu-item" data-title="Navratan Korma"
+                        data-description="A medley of nine vegetables and nuts cooked in a mild, creamy, and sweet cashew-based curry."
+                        data-price="$11.99"
+                        data-image="https://images.unsplash.com/photo-1582576163090-09d3b6f8a969?w=400&h=300&fit=crop&crop=center">
+                        <figure>
+                            <img src="https://images.unsplash.com/photo-1582576163090-09d3b6f8a969?w=300&h=200&fit=crop&crop=center"
+                                alt="Navratan Korma">
+                        </figure>
+                        <h3>Navratan Korma</h3>
+                        <p>A medley of nine vegetables and nuts cooked in a mild, creamy, and sweet cashew-based curry.
+                        </p>
+                        <span class="price">$11.99</span>
+                    </article>
+                    <article class="menu-item" data-title="Matar Paneer"
+                        data-description="Classic North Indian curry made with green peas and paneer in a tomato-based sauce."
+                        data-price="$10.99"
+                        data-image="https://images.unsplash.com/photo-1589301760014-d929f39ce9b1?w=400&h=300&fit=crop&crop=center">
+                        <figure>
+                            <img src="https://images.unsplash.com/photo-1589301760014-d929f39ce9b1?w=300&h=200&fit=crop&crop=center"
+                                alt="Matar Paneer">
+                        </figure>
+                        <h3>Matar Paneer</h3>
+                        <p>Classic North Indian curry made with green peas and paneer in a tomato-based sauce.</p>
+                        <span class="price">$10.99</span>
+                    </article>
+                    <article class="menu-item" data-title="Garlic Naan"
+                        data-description="Soft and fluffy Indian flatbread baked in a tandoor, brushed with butter and minced garlic."
+                        data-price="$3.99"
+                        data-image="https://images.unsplash.com/photo-1603569283847-aa295f0d016a?w=400&h=300&fit=crop&crop=center">
+                        <figure>
+                            <img src="https://images.unsplash.com/photo-1603569283847-aa295f0d016a?w=300&h=200&fit=crop&crop=center"
+                                alt="Garlic Naan">
+                        </figure>
+                        <h3>Garlic Naan</h3>
+                        <p>Soft and fluffy Indian flatbread baked in a tandoor, brushed with butter and minced garlic.
+                        </p>
+                        <span class="price">$3.99</span>
+                    </article>
+                    <article class="menu-item" data-title="Gulab Jamun"
+                        data-description="Deep-fried milk dumplings soaked in a warm, fragrant rose-water and cardamom syrup."
+                        data-price="$5.99"
+                        data-image="https://images.unsplash.com/photo-1593701404094-b258671ab2a7?w=400&h=300&fit=crop&crop=center">
+                        <figure>
+                            <img src="https://images.unsplash.com/photo-1593701404094-b258671ab2a7?w=300&h=200&fit=crop&crop=center"
+                                alt="Gulab Jamun">
+                        </figure>
+                        <h3>Gulab Jamun</h3>
+                        <p>Deep-fried milk dumplings soaked in a warm, fragrant rose-water and cardamom syrup.</p>
+                        <span class="price">$5.99</span>
+                    </article>
                 </section>
             </div>
         </div>
     </section>
+
+
+    </div>
+    </div>
+
+
 
     <footer>
         <div class="container">
@@ -181,4 +333,5 @@
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
